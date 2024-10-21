@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NO(natioanl_origion)</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .taskbar {
+            position: fixed;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .taskbar h1 {
+            text-align: left;
+            font-size: 20px;
+            margin-left: 20px;  
+        }
+        .taskbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+            padding-bottom: 0px;
+        }
+        
+        .taskbar a:hover {
+            background-color: #575757;
+        }
+        .form{
+            align-items: center;  
+            padding-left: 400px;
+        }
+        /* styles.css */
+.my-button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 12px; /* Rounded corners */
+}
+
+.my-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    text-decoration: none;
+}
+.my-button.a{
+    text-decoration: none;
+}
+    </style>
+</head>
+<body style="background-color: rgb(233, 214, 46);">
+    <div class="taskbar">
+        <h1>NO (natioanl_origion)</h1>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+</div>
+<br>
+<br><br><br><br><br><br>
+<h1 style="text-align: center;text-shadow: #333;">Please enter Information download application</h1>
+<div class="form">
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required style="color: royalblue;font-size: 20px;border: 1px solid black;border-radius: 20px;"><br><br>
+        
+        <label for="fathername">Father's Name:</label><br>
+        <input type="text" id="fathername" name="fathername" required style="color: royalblue;font-size: 20px;border: 1px solid black;border-radius: 20px;"><br><br>
+        
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required style="color: royalblue;font-size: 20px;border: 1px solid black;border-radius: 20px;"><br><br>
+        
+        <label for="age">Age:</label><br>
+        
+        <input type="number" id="age" name="age" min="15" max="17" required style="color: royalblue;font-size: 20px;border: 1px solid black;border-radius: 20px;"><br><br>
+        
+        <button class="my-button" onclick="alert('Thanks for submitting')"><a href="application.html">Submit</a></button>
+        
+    </form>
+</div>
+</html>
